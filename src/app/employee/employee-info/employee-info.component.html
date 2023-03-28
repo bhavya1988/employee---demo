@@ -1,0 +1,22 @@
+<app-header [headerText]="'Employee Info'" [back]="true"></app-header>
+<div class="page">
+  <table>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Gender</th>
+      <th>Address</th>
+    </tr>
+
+    <ng-container *ngIf="employeeInfo as item">
+      <tr>
+        <td>{{ item.id }}</td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.age }}</td>
+        <td>{{ item.gender }}</td>
+        <td>{{ item.address }}</td>
+      </tr>
+    </ng-container>
+  </table>
+</div>

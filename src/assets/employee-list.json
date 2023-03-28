@@ -1,0 +1,19 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "name": "Appu",
+      "age": 30,
+      "gender": "M",
+      "address": "BR Hills Road, Nalluru,Hondarabalu"
+    },
+
+    {
+      "id": 2,
+      "name": "Hemesh",
+      "age": 25,
+      "gender": "M",
+      "address": "Koramanagala , Bengaluru"
+    }
+  ]
+}

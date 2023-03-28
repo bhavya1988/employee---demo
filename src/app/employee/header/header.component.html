@@ -1,0 +1,11 @@
+<div class="header">
+  <div>
+    <h2>
+      {{ headerText }}
+    </h2>
+  </div>
+  <div>
+    <a *ngIf="!back" (click)="onLogout()">Logout</a>
+    <a *ngIf="back" (click)="onBack()">X</a>
+  </div>
+</div>
